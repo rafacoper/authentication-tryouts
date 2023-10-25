@@ -1,0 +1,9 @@
+GET http://localhost:3000
+
+###
+POST http://localhost:3000/signin
+
+{
+  "email": "rafa@email.com",
+  "password": "12345678"
+}
